@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Receitas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="content-container">
+        <header>
+            <h1>Buscador de Receitas!</h1>
+        </header>
+        <main>
+            <input id="campo-pesquisa" type="text" placeholder="O que vamos cozinhar hoje?">
+            <button onclick="pesquisar()">Pesquisar</button>
+            <section id="resultado-pesquisa"></section>
+            <p id="mensagem-erro" style="display:none;">Nenhuma receita encontrada.</p>
+            
+        </main>
+    </div>
+    <footer>
+        <p>So temos 5 receitas no momento!</p>
+        <p>Bolo de cenoura,brigadeiro, macarrão,quiche e panquecas!!</p>
+        <p>Projeto realizado por <a href="https://www.linkedin.com/in/guilherme-s%C3%A1-513409219/" target="_blank">Guilherme Sá</a></p>
+        <p>Para saber mais, entre em contato pelo e-mail: guilhermecgsa7@gmail.com</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

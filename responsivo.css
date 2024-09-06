@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+    header {
+        height: 80px; /* Menor altura para telas menores */
+        padding: 0.5rem 1rem;
+    }
+    
+    main {
+        margin-top: 90px; /* Ajusta o espaço para o header menor */
+    }
+    
+    footer {
+        height: 40px; /* Menor altura para o footer */
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    input[type="text"] {
+        width: 90%; /* Ajusta a largura do input */
+    }
+    
+    button {
+        padding: 0.8rem 1.5rem; /* Reduz o padding do botão */
+        margin-left: 0.5rem;
+    }
+    
+    .item-card {
+        padding: 1.5rem; /* Reduz o padding dos cards */
+        margin-bottom: 1.5rem;
+    }
+    
+    .item-card img {
+        max-width: 30%; /* Ajusta o tamanho da imagem no card */
+    }
+    
+    h1, h2 {
+        font-size: 24px; /* Menor tamanho de fonte para telas menores */
+    }
+    
+    p {
+        font-size: 1rem; /* Ajusta o tamanho da fonte dos parágrafos */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 70px; /* Ajusta ainda mais para telas muito pequenas */
+        padding: 0.5rem;
+    }
+    
+    main {
+        margin-top: 80px;
+    }
+    
+    footer {
+        height: 35px; /* Altura mínima para o footer */
+        padding: 0.3rem;
+        font-size: 0.7rem;
+    }
+    
+    input[type="text"] {
+        width: 100%; /* Largura total do input */
+    }
+    
+    button {
+        padding: 0.6rem 1.2rem; /* Ajusta o padding do botão para telas muito pequenas */
+    }
+    
+    .item-card {
+        padding: 1rem; /* Reduz o padding dos cards para telas pequenas */
+        margin-bottom: 1rem;
+    }
+    
+    .item-card img {
+        max-width: 40%; /* Ajusta o tamanho da imagem no card */
+    }
+    
+    h1, h2 {
+        font-size: 20px; /* Menor tamanho de fonte para telas muito pequenas */
+    }
+    
+    p {
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte dos parágrafos */
+    }
+}

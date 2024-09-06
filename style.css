@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px; /* Altura do header */
+    background-color: #f0f0f0; /* Cor de fundo do header */
+    padding: 1rem 2rem;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main {
+    margin-top: 120px; /* Espaço abaixo do header */
+    text-align: center;
+    width: 100%;
+    flex: 1; /* Permite que o main ocupe o espaço restante */
+}
+
+footer {
+    position: relative; /* Usa 'relative' para se ajustar dentro da tela */
+    height: 50px; /* Altura reduzida do footer */
+    padding: 0.5rem 1rem; /* Ajuste o padding para não ultrapassar a tela */
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total do footer */
+}
+
+footer p {
+    margin: 0; /* Remove margens para evitar overflow */
+}
+
+/* Estilos para a barra de pesquisa */
+input[type="text"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: #ffd700;
+    font-weight: 1000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+.item-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-card img {
+    max-width: 20%;
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+}
